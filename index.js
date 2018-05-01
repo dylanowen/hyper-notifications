@@ -34,8 +34,6 @@ exports.middleware = store => next => action => {
     const { type } = action;
 
     if (type === 'SESSION_PTY_DATA') {
-        //console.log(action.data.length);
-
         var i = triggers.length;
         while (i--) {
             if (action.data.indexOf(triggers[i].string) > -1) {
