@@ -1,0 +1,16 @@
+{
+  "name": "hyper-notifications",
+  "version": "0.0.1",
+  "keywords": [
+    "hyper",
+    "hyper.app"
+  ],
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+
+  }
+}
